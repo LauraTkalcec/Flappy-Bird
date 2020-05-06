@@ -29,7 +29,7 @@ public class Player : MonoBehaviour
     }
     void Die()
     {
-        Application.LoadedLevel(Application.loadedLevel);
+        Application.LoadLevel(Application.loadedLevel);
     }
 	// Update is called once per frame
 	void Update () {

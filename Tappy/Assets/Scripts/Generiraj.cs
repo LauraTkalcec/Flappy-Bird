@@ -16,7 +16,7 @@ public class Generiraj : MonoBehaviour
     void OnBUI()
     {
         GUI.color = Color.black;
-        GUILayer.Label("Rezultat:" + rezultat.ToString());
+        GUILayout.Label("Rezultat:" + rezultat.ToString());
     }
     void KreirajStjene()
     {
